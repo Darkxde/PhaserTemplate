@@ -1,0 +1,22 @@
+{
+  "short_name": "Phaser Game JAM",
+  "name": "Phaser Game JAM",
+  "icons": [
+    {
+      "src": "assets/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "scope": "/",
+  "theme_color": "#000000"
+}

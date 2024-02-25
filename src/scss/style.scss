@@ -1,0 +1,62 @@
+//@import "~bootstrap/scss/bootstrap";
+
+// $game-width: 1280px;
+// $game-height: 800px;
+
+$game-width: 100vw;
+$game-height: 100vh;
+
+body.game {
+  margin: 0px 0px 1px 0px;
+  background-color: #000000;
+
+#my-game-container {
+  height: 99.9vh;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  #my-game {
+  width: 100%;
+  height: 100%;
+  max-width: $game-width;
+  max-height: $game-height;
+
+  
+canvas {
+    
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: $game-width;
+  max-height: $game-height;
+}
+
+}
+}
+
+}
+
+
+body.playground {
+background-color: #000000;
+    h1{color:greenyellow; text-align: center;}
+    div{color: white;}
+}
+
