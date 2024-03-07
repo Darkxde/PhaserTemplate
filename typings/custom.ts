@@ -1,3 +1,6 @@
+// definire qui tipi di dati custom
+// utile in particolare per le settings
+
 interface GameSettings {
     gameWidth: number,
     gameHeight: number,

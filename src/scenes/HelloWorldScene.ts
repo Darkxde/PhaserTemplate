@@ -1,22 +1,19 @@
 import { globalEval } from 'jquery'
 import Phaser from 'phaser'
 
-import { gameSettings } from '../GameData'
+import { gameSettings } from '../consts/GameSettings'
+import SceneKeys from '../consts/SceneKeys'
+import TextureKeys from '../consts/TextureKeys'
 
 export default class HelloWorldScene extends Phaser.Scene
 {
 	constructor()
 	{
-		super('hello-world')
+		super(SceneKeys.Game)
 	}
-
-	preload()
-    {
-        this.load.image('logo', 'assets/images/logo.jpg')
-    }
 
     create()
     {
-        this.add.image(gameSettings.gameWidth * 0.5, gameSettings.gameHeight * 0.5, 'logo').setScale(0.5)
+        this.add.image(gameSettings.gameWidth * 0.5, gameSettings.gameHeight * 0.5, TextureKeys.Logo).setScale(0.5)
     }
 }

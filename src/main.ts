@@ -1,8 +1,9 @@
 import "phaser"
 
 import HelloWorldScene from "./scenes/HelloWorldScene"
+import Preloader from "./scenes/Preloader"
 
-import { gameSettings } from "./GameData"
+import { gameSettings } from "./consts/GameSettings"
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -23,6 +24,7 @@ const config: Phaser.Types.Core.GameConfig = {
   },
 
   scene: [
+    Preloader,
     HelloWorldScene,
   ],
 }
