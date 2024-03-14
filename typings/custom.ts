@@ -6,5 +6,6 @@ interface GameSettings {
     gameHeight: number,
     bgColor: string,
     gravity: {x: number, y: number},
-    debug: boolean
+    debug: boolean,
+    zoom: number
 };

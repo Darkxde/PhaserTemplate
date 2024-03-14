@@ -1,7 +1,8 @@
 export let gameSettings: GameSettings = {
-    gameWidth: 800,
-    gameHeight: 640,
-    bgColor: "#ffffff",
+    gameWidth: 1920,
+    gameHeight: 1080,
+    bgColor: "#000000",
     gravity: {x: 0, y: 200},
-    debug: true
+    debug: true,
+    zoom: 1
 }

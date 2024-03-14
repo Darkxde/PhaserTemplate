@@ -101,7 +101,7 @@ module.exports = {
 
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'public', to: 'assets' },
+        // { from: 'public', to: 'assets' },
         { from: 'src/pwa', to: '' },
         { from: 'src/favicon.ico', to: '' }
       ]

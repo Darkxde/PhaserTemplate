@@ -13,6 +13,7 @@ const config: Phaser.Types.Core.GameConfig = {
     mode: Phaser.Scale.FIT,
     width: gameSettings.gameWidth,
     height: gameSettings.gameHeight,
+    zoom: gameSettings.zoom
   },
 
   physics: {
